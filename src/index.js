@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import AppTS from './App';
 import AppFunctional from './AppFunctional';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     <App />
     <AppFunctional />
+    <AppTS />
   </React.StrictMode>
 );
 
